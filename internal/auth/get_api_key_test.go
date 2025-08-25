@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"testing"
 )
+
 func TestAPIkey(t *testing.T) {
 	req, _ := http.NewRequest("GET", "/", nil)
 	headers := req.Header
